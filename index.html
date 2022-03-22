@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhira Danuarta - UI Designer</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-background">
+    <!-- Navbar -->
+    <nav class="flex flex-col px-4 pt-6 fixed w-full z-10 md:px-10 lg:flex-row lg:px-20 lg:justify-between">
+      <div class="flex justify-between items-center">
+        <img class="w-16" src="./img/Dhira.svg" alt="Logo" />
+        <img class="lg:hidden" src="./img/menu.svg" alt="" />
+      </div>
+      <div>
+        <ul class="text-white text-center gap-8 mt-10 font-semibold hidden lg:flex lg:gap-[72px]">
+          <li class="pb-8"><a class="hover:text-[#FFD500] transition duration-200 ease-in" href="">Home</a></li>
+          <li class="pb-8"><a class="hover:text-[#FFD500] transition duration-200 ease-in" href="">Portfolio</a></li>
+          <li class="pb-8"><a class="hover:text-[#FFD500] transition duration-200 ease-in" href="">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Bg Topography -->
+    <div class="static">
+      <img class="absolute top-0 left-0 -z-10 lg:h-screen lg:w-full" src="./img/bgtopo.png" alt="" />
+    </div>
+    <!-- End Bg Topography -->
+
+    <!-- Hero Section -->
+    <section class="px-4 pt-32 lg:pt-[177px] lg:px-20 pb-32 flex flex-col gap-16">
+      <header>
+        <h1 class="text-white text-center font-bold text-5xl -tracking-wide md:text-6xl lg:text-[88px]">Hello, I'm <span class="bg-gradient-to-r from-[#FFD500] to-[#FFA800] bg-clip-text text-transparent">Dhira</span></h1>
+        <p class="text-p text-center mt-4 lg:mt-2 max-w-sm mx-auto">A person who loves to create stunning User Interface and have an interest to Front-End Web Development</p>
+      </header>
+      <div class="flex gap-12 mx-auto max-w-sm">
+        <a class="hover:scale-125 active:scale-125 transition duration-200" href=""><img src="./img/instagram.svg" alt="instagram" /></a>
+        <a class="hover:scale-125 active:scale-125 transition duration-200" href=""><img src="./img/dribbble-ball-mark 1.svg" alt="instagram" /></a>
+      </div>
+      <!-- Portfolio Preview -->
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+        <div class="relative max-w-md mx-auto lg:max-w-none">
+          <img src="./img/Pic1.jpg" alt="Petto" />
+          <a href="">
+            <div class="absolute opacity-0 hover:opacity-100 transition duration-200 ease-in top-0 left-0 right-0 bottom-0 bg-gradient-to-t from-background/70 flex items-end p-6">
+              <div class="flex gap-1 items-center justify-between w-full">
+                <h1 class="text-white font-medium tracking-wide">Petto - Landing Page</h1>
+                <img src="./img/Arrow_right_light (1).svg" alt="arrow" />
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="relative max-w-md mx-auto lg:max-w-none">
+          <img src="./img/Pic2.jpg" alt="LuxCryto" />
+          <a href="">
+            <div class="absolute opacity-0 hover:opacity-100 transition duration-200 ease-in top-0 left-0 right-0 bottom-0 bg-gradient-to-t from-background/70 flex items-end p-6">
+              <div class="flex gap-1 items-center justify-between w-full">
+                <h1 class="text-white font-medium tracking-wide">LuxCryto - Mobile UI</h1>
+                <img src="./img/Arrow_right_light (1).svg" alt="arrow" />
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="relative max-w-md mx-auto lg:max-w-none">
+          <img src="./img/Pic6.jpg" alt="Lawwwyer" />
+          <a href="">
+            <div class="absolute opacity-0 hover:opacity-100 transition duration-200 ease-in top-0 left-0 right-0 bottom-0 bg-gradient-to-t from-background/70 flex items-end p-6">
+              <div class="flex gap-1 items-center justify-between w-full">
+                <h1 class="text-white font-medium tracking-wide">Lawwwyer - Landing Page</h1>
+                <img src="./img/Arrow_right_light (1).svg" alt="arrow" />
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- Footer -->
+    <footer class="p-4">
+      <h1 class="text-p text-center text-xs">I Komang Dhira Danuarta | 2022</h1>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
